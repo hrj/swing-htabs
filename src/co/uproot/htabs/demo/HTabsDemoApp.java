@@ -69,7 +69,7 @@ public class HTabsDemoApp {
     swap(lafs, lafs.length - 1, crossPlatformLafIndex);
     crossPlatformLafIndex = lafs.length - 1;
 
-    updateLAF(systemLafIndex, null);
+    updateLAF(crossPlatformLafIndex, null);
   }
 
   private static int getLafIndex(final String searchLafClassName) {
